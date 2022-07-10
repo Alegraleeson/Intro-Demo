@@ -1,0 +1,124 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+/* Profile Page */
+
+
+.heading{
+	color: rgb(205, 17, 143)
+}
+
+.list{
+	display: list-item;
+	list-style-type: "★ ";
+}
+
+.profile{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+	                
+	
+
+	 /* grid-template-areas:  */
+	/* 'header header'
+	'left right'  */
+  }
+
+ 
+
+.btn{
+	height: 50px;
+	width: 150px;
+	background-color: yellow;
+}
+
+
+
+
+/* Unused Code */
+
+/* .pic{
+	grid-area: left;
+}
+
+.right{
+	grid-area: right;
+}
+
+/* ul li:before {
+    content: "";
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    border-radius: 50%;
+    left: 0;
+    margin-top: -7px; /* half bullet height */
+    /* width: 14px;
+    height: 14px;
+    background: #000; */
+/* } */ 
+
+ 
+/* li::before { 
+	counter-increment: "bullet"; 
+	content: "★ "; counter(square) "★"; 	color: inherit; 
+	font-weight: normal;  */
+	/* display: flex; 
+	flex: none; 
+	align-items: flex-start; 
+	justify-content: flex-end; 
+	padding-right: 0.8em; */
+	/* list-style-type: square; */
+ /* } */
+
+/* ul { 
+	counter-reset: list-item;
+	list-style-type: square;
+	/* list-style-type: square; */
+	/* counter-reset: ".item";                
+	list-style-type: square; */
+
+/* }
+
+li{
+	display: list-item;
+
+} */

@@ -80,3 +80,5 @@ while(harryHealth > 0){
         console.log("Harry has been slain")
     }
 }
+
+console.log("Good job Harry.")
